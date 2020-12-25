@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #35ee73;
+  --blue: #11bcdd;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+nav, .showcase, .disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1em;
+}
+
+nav {
+  position: relative;
+  box-shadow: -2px 16px 25px -30px rgba(0,0,0,0.68);
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+#logo {
+  position: absolute;
+  left: 30px;
+  color: #444;
+}
+
+.editor-link {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.github-link {
+  position: absolute;
+  color: #444;
+  right: 30px;
+  transition: 0.5s ease-in-out;
+}
+
+.github-link:hover {
+  color: #777;
+  transform: rotate(360deg);
+}
+
+.github-link i {
+  font-size: 35px;
+}
+
+.show-column {
+  width: 30%;
+  box-shadow: 7px 10px 25px -12px rgba(0,0,0,0.68);
+  border-radius: 25px;
+  margin: 10px;
+}
+
+#first {
+  box-shadow: -10px 13px 25px -12px rgba(0,0,0,0.68);
+}
+
+.show-text {
+  box-shadow: none;
+  color: #555;
+  margin-left: 2em;
+}
+
+.show-caption span {
+  font-weight: 800;
+  color: var(--green);
+}
+
+.go {
+  margin: 10px auto;
+}
+
+.start {
+  margin-top: 1em;
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.start i {
+  transition: 0.5s ease-in-out;
+
+}
+
+.start:hover i {
+  transform: translateX(20px);
+}
+
+.disclaimer {
+  margin: 2em auto;
+}
+
+.disclaimer-text {
+  width: 55%;
+}
+
+.future {
+  margin-top: 15px;
+}
+
+.disclaimer-icon {
+  width: 35%;
+}
+.emoji {
+  height: auto;
+  width: 100%;
+}
+
+.fa-smile-beam {
+  color: #dcc500;
+}
+
+.minCV {
+  font-weight: bold;
+}
+
+.repo {
+  text-decoration: none;
+  color: var(--blue);
+  transition: 0.5s ease-in-out;
+}
+
+.repo:hover {
+  color: #6bd4e8;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Open sans Condensed" ;
+  font-size: 22px;
+  padding: 2em;
+  box-shadow: 3px -23px 25px -38px rgba(0,0,0,0.68);
+}
+
+
+footer .social {
+  margin-top: 1em;
+}
+
+footer a{
+  font-size: 20px;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+
+footer img{
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+  transition: 0.7s;
+}
+
+footer img:hover{
+  opacity: 0.3;
+}

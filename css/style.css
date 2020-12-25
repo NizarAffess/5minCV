@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #35ee73;
+  --blue: #11bcdd;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.back-to {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  text-decoration: none;
+  color: var(--blue);
+  z-index: 5;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.elements, .image-container,
+.main-contact,
+.social, .result,
+.skills-container,
+.skillset,
+.period-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main-header {
+  margin: 1em;
+  color: #333;
+}
+
+.for-image {
+  margin: 1em 5px;
+}
+
+.for-image i {
+  font-size: 57px;
+  margin-right: 7px;
+  color: var(--green);
+}
+
+.upload {
+  z-index: 3;
+}
+
+.upload, .btn {
+  background: var(--green);
+  color: #fff;
+  padding: 7px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.image-caption {
+  font-size: 16px;
+}
+
+.image-size {
+  font-weight: bold;
+  color: #444;
+}
+
+#file{
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+
+.image-caption {
+  color: #444;
+}
+
+.elements {
+  margin-bottom: 1em;
+}
+
+.elements .input-container, .occupation {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 7px;
+  border: 2px solid var(--green);
+  line-height: 25px;
+  border-radius: 25px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-caption {
+  color: #555;
+  margin-bottom: 3px;
+}
+
+.occupation {
+  width: 40%;
+  justify-content: left;
+  margin-top: 3px;
+  border-radius: 15px;
+  margin-left: 30%;
+}
+
+.elements i, .occupation i {
+  font-size: 28px;
+  color: var(--green);
+  margin-left: 5px;
+}
+
+.elements input,
+.elements textarea,
+.occupation input {
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  outline: none;
+  z-index: 1;
+}
+
+textarea {
+  resize: none;
+  font-family: Helvetica;
+  padding: 7px;
+}
+
+.result img{
+  float: left;
+  width: 80px;
+  height: 105px;
+  margin-left: 7px;
+  margin-top: 12px;
+  opacity: 0;
+}
+
+.main-contact, .social {
+  flex-direction: column;
+  width: 50%;
+}
+
+#internship {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intern {
+  width: 80%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.align-row {
+  margin-top: 7px;
+}
+
+.intern .social {
+  margin-left: 2em;
+}
+
+.result {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.header {
+  text-align: center;
+}
+
+.main-info, .social-info {
+  width: 50%;
+}
+
+.btn {
+  padding: 7px 9px;
+  font-size: 22px;
+  border-radius: 11px;
+  border: 2px solid var(--green);
+  outline: none;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  color: var(--green);
+  background: #fff;
+}
+
+.header {
+  margin: 3em 1em 1em;
+}
+
+/* .levels {
+  display: flex;
+  flex-direction: row;
+}
+
+.level {
+  margin: 10px;
+}
+
+.level-container {
+  margin: 10px;
+  z-index: 9;
+}
+
+.level-container input {
+  margin: 1px 45px;
+} */
+
+/* profile */
+.profile i {
+  font-size: 100px;
+  margin-right: 10px;
+}
+
+/* experience */
+.date-container {
+  margin: 5px;
+}
+
+.skillset {
+  flex-direction: column;
+  margin: 0.5em 10px;
+}
+
+.skill {
+  font-size: 18px;
+  padding: 4px;
+  outline: none;
+  border: 1px solid var(--green);
+  border-radius: 2px;
+  margin-bottom: 3px;
+}
+
+.skillset input {
+  z-index: 1;
+}
+
+.project-container {
+  width: 100%;
+}
+
+.project {
+  font-size: 20px;
+  width: 600px;
+  /* height: 50px; */
+  margin: 7px;
+  border: 2px solid var(--green);
+  border-radius: 5px;
+}
+
+.end {
+  margin-bottom: 1em;
+}
+
+.fa-thumbs-up {
+  font-size: 50px !important;
+  color: var(--green);
+  margin-bottom: 1em;
+}
+
+.state-buttons {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 40%;
+  margin-left: -20%;
+  margin-bottom: 30px;
+}
+
+/* .state-btn {
+} */
+
+#nextBtn {
+  right: 0;
+}
+
+.tab {
+  position: absolute;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  /* max-height: 95vh; */
+}
+
+.studies {
+  padding-bottom: 2em;
+}

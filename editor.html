@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>5minCV | Editor</title>
+</head>
+<body>
+
+  <h5><a href="index.html" class="back-to">Back to Home</a></h5>
+
+<form class="container" id="regForm">
+<div class="tab">
+    <h2 class="main-header">Image and Title</h2>
+    <form spellcheck="false">
+      <div class="input-container for-image">
+        <div class="image-container">
+          <i class="fas fa-image"></i>
+          <label for="file" class="upload">Upload an Image</label>
+        </div>
+        <span class="image-caption">We recommend an image size of less than <span class="image-size">100KB</span></span>
+        <input type="file" id="file" accept="image/*">
+      </div>
+
+      <label class="input-caption">Full Name</label>
+      <div class="input-container occupation">
+        <i class="fas fa-user"></i>
+        <input type="text" id="user-name" class="name" placeholder="Enter your name...">
+      </div>
+      <label class="input-caption">Occupation</label>
+      <div class="input-container occupation">
+        <i class="fas fa-user-md"></i>
+        <input type="text" id="occupation-name" class="name" placeholder="What do you do...">
+      </div>
+    </form>
+  </div>
+
+
+<div class="tab">
+  <h2 class="main-header">Enter your contact information</h2>
+  <div spellcheck="false" class="contact-container elements" id="contact">
+     <div class="main-contact">
+       <label class="input-caption">Address</label>
+       <div class="input-container">
+         <i class="fas fa-map-marker-alt"></i>
+         <input type="text" class="address" placeholder="Enter your address">
+       </div>
+       <label class="input-caption">Email</label>
+       <div class="input-container">
+         <i class="fas fa-envelope"></i>
+         <input type="email" class="email" placeholder="Enter your email address">
+       </div>
+       <label class="input-caption">Phone</label>
+       <div class="input-container">
+         <i class="fas fa-phone"></i>
+         <input type="tel" class="phone" placeholder="Your Phone number">
+       </div>
+     </div>
+
+     <div class="social">
+       <label class="input-caption">Website</label>
+       <div class="input-container">
+         <i class="fas fa-globe-africa"></i>
+         <input type="url" class="website" placeholder="Enter your Website url">
+       </div>
+       <label class="input-caption">Github</label>
+       <div class="input-container">
+         <i class="fab fa-github"></i>
+         <input type="url" class="github" placeholder="Your Github account url">
+       </div>
+       <label class="input-caption">LinkedIn</label>
+       <div class="input-container">
+         <i class="fab fa-linkedin" ></i>
+         <input type="url" class="linkedin" placeholder="Your LinkedIn account url">
+       </div>
+     </div>
+  </div>
+</div>
+
+<div class="tab">
+  <h2 class="main-header">Do you have any certificates?
+    <br>
+    If so, Bring it here!
+    <br>
+    Else, skip to the next step.
+  </h2>
+  <div spellcheck="false" class="certificate-container elements">
+     <div class="main-contact">
+       <label class="input-caption">Certificate name</label>
+       <div class="input-container">
+         <i class="fas fa-certificate"></i>
+         <input type="text" class="certif" placeholder="Certificate of...">
+       </div>
+       <label class="input-caption">Certificate name</label>
+       <div class="input-container">
+         <i class="fas fa-certificate"></i>
+         <input type="text" class="certif" placeholder="Certificate of...">
+       </div>
+       <label class="input-caption">Certificate name</label>
+       <div class="input-container">
+         <i class="fas fa-certificate"></i>
+         <input type="text" class="certif" placeholder="Certificate of...">
+       </div>
+     </div>
+   </div>
+</div>
+
+<!-- profile -->
+<div class="tab">
+ <h2 class="main-header">Tell your "Leader" about you</h2>
+  <div class="profile elements">
+    <div class="input-container">
+      <i class="fas fa-id-card"></i>
+      <textarea type="text" id="message" placeholder="Talk about yourself..."
+      rows="5" cols="50" spellcheck="false"></textarea>
+    </div>
+  </div>
+</div>
+
+  <!-- work experience -->
+  <div class="tab">
+    <h2 class="main-header">Talk about your experience!
+      <br>
+      Where have you been?
+    </h2>
+    <div spellcheck="false" id="internship" class="contact-container elements">
+      <!-- first internship -->
+      <div class="intern">
+       <div class="main-contact">
+         <div class="period-container">
+           <div class="date-container">
+             <label class="input-caption">Title</label>
+             <div class="input-container align-row">
+               <i class="fas fa-user-md"></i>
+               <input type="text" class="job-title" placeholder="Job title">
+             </div>
+           </div>
+           <div class="date-container">
+             <label class="input-caption">Company</label>
+             <div class="input-container align-row">
+               <i class="fas fa-building"></i>
+               <input type="text" class="company-name" placeholder="Company name">
+             </div>
+           </div>
+         </div>
+         <div class="period-container">
+           <div class="date-container">
+             <label class="input-caption">Date of join</label>
+             <div class="input-container">
+               <i class="fas fa-file-signature"></i>
+               <input type="date" class="date">
+             </div>
+           </div>
+           <div class="date-container">
+             <label class="input-caption">Date of leave</label>
+             <div class="input-container">
+               <i class="fas fa-sign-out"></i>
+               <input type="date" class="date">
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="social">
+         <label class="input-caption">Task</label>
+         <div class="input-container">
+           <i class="fas fa-tasks"></i>
+           <input type="text" class="twitter task" placeholder="Enter a task you did or something you learned">
+         </div>
+         <label class="input-caption">Task</label>
+         <div class="input-container">
+           <i class="fas fa-tasks"></i>
+           <input type="text" class="linkedin task" placeholder="Enter a task you did or something you learned">
+         </div>
+       </div>
+       </div>
+       <!-- second internship -->
+       <div class="intern">
+       <div class="main-contact">
+         <div class="period-container">
+           <div class="date-container">
+             <label class="input-caption">Title</label>
+             <div class="input-container align-row">
+               <i class="fas fa-user-md"></i>
+               <input type="text" class="job-title" placeholder="Job title">
+             </div>
+           </div>
+           <div class="date-container">
+             <label class="input-caption">Company</label>
+             <div class="input-container align-row">
+               <i class="fas fa-building"></i>
+               <input type="text" class="company-name" placeholder="Company name">
+             </div>
+           </div>
+         </div>
+         <div class="period-container">
+           <div class="date-container">
+             <label class="input-caption">Date of join</label>
+             <div class="input-container">
+               <i class="fas fa-file-signature"></i>
+               <input type="date" class="date">
+             </div>
+           </div>
+           <div class="date-container">
+             <label class="input-caption">Date of leave</label>
+             <div class="input-container">
+               <i class="fas fa-sign-out"></i>
+               <input type="date" class="date">
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="social">
+         <label class="input-caption">Task</label>
+         <div class="input-container">
+           <i class="fas fa-tasks"></i>
+           <input type="text" class="twitter task" placeholder="Enter a task you did or something you learned">
+         </div>
+         <label class="input-caption">Task</label>
+         <div class="input-container">
+           <i class="fas fa-tasks"></i>
+           <input type="text" class="linkedin task" placeholder="Enter a task you did or something you learned">
+         </div>
+       </div>
+       </div>
+    </div>
+  </div>
+
+
+  <!-- languages -->
+  <div class="tab">
+    <h2 class="main-header">Let's see how many languages you speak
+      <br>
+      and how fluent you are?
+    </h2>
+    <div spellcheck="false" class="contact-container elements">
+       <div class="main-contact">
+         <div class="input-container">
+           <i class="fas fa-language"></i>
+           <input type="text" class="language" placeholder="Enter a language">
+         </div>
+         <div class="input-container">
+           <i class="fas fa-language"></i>
+           <input type="text" class="language" placeholder="Enter a language">
+         </div>
+         <div class="input-container">
+           <i class="fas fa-language"></i>
+           <input type="text" class="language" placeholder="Enter a language">
+         </div>
+         <div class="input-container">
+           <i class="fas fa-language"></i>
+           <input type="text" class="language" placeholder="Enter a language">
+         </div>
+       </div>
+       <div class="main-contact">
+         <div class="input-container">
+           <i class="fas fa-layer-group"></i>
+           <input type="text" class="level" placeholder="Level: exp: Native">
+         </div>
+         <div class="input-container">
+           <i class="fas fa-layer-group"></i>
+           <input type="text" class="level" placeholder="Level: exp: Fluent">
+         </div>
+         <div class="input-container">
+           <i class="fas fa-layer-group"></i>
+           <input type="text" class="level" placeholder="Level: exp: Intermediate">
+         </div>
+         <div class="input-container">
+           <i class="fas fa-layer-group"></i>
+           <input type="text" class="level" placeholder="Level: exp: Basic">
+         </div>
+       </div>
+       <!-- level -->
+       <!-- <div class="main-contact">
+         <div class="levels">
+           <p class="level">Native</p>
+           <p class="level">Fluent</p>
+           <p class="level">Intermediate</p>
+           <p class="level">Basic</p>
+         </div>
+         <div class="level-container">
+           <input type="checkbox" name="check" name="check" class="native" value="native">
+           <input type="checkbox" name="check" class="fluent" value="fluent">
+           <input type="checkbox" name="check" class="intermediate" value="intermediate">
+           <input type="checkbox" name="check" class="basic" value="basic">
+         </div>
+         <div class="level-container">
+           <input type="checkbox" name="check" class="native" value="native">
+           <input type="checkbox" name="check" class="fluent" value="fluent">
+           <input type="checkbox" name="check" class="intermediate" value="intermediate">
+           <input type="checkbox" name="check" class="basic" value="basic">
+         </div>
+         <div class="level-container">
+           <input type="checkbox" name="check" class="native" value="native">
+           <input type="checkbox" name="check" class="fluent" value="fluent">
+           <input type="checkbox" name="check" class="intermediate" value="intermediate">
+           <input type="checkbox" name="check" class="basic" value="basic">
+         </div>
+         <div class="level-container">
+           <input type="checkbox" name="check" class="native" value="native">
+           <input type="checkbox" name="check" class="fluent" value="fluent">
+           <input type="checkbox" name="check" class="intermediate" value="intermediate">
+           <input type="checkbox" name="check" class="basic" value="basic">
+         </div>
+       </div> -->
+
+     </div>
+  </div>
+
+ <div class="tab">
+   <h2 class="main-header">Time for your skillset</h2>
+   Enter up to 15 skills
+   <div class="skills-container">
+     <!-- part 1/3 -->
+     <div spellcheck="false">
+       <div class="skillset">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+       </div>
+     </div>
+     <div spellcheck="false">
+       <div class="skillset">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+       </div>
+     </div>
+     <div spellcheck="false">
+       <div class="skillset">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+         <input type="text" class="skill">
+       </div>
+     </div>
+   </div>
+ </div>
+
+   <!-- Education -->
+ <div class="tab studies">
+   <h2 class="main-header">Where did you studied</h2>
+   <div class="contact-container elements">
+      <div class="main-contact">
+          <label class="input-caption">Degree</label>
+          <div class="input-container">
+            <i class="fas fa-graduation-cap"></i>
+            <input type="text" class="degree" placeholder="...">
+          </div>
+          <label class="input-caption">University/School</label>
+          <div class="input-container">
+            <i class="fas fa-university"></i>
+            <input type="text" class="school" placeholder="...">
+          </div>
+          <label class="input-caption">Degree</label>
+          <div class="input-container">
+            <i class="fas fa-graduation-cap"></i>
+            <input type="text" class="degree" placeholder="...">
+          </div>
+          <label class="input-caption">University/School</label>
+          <div class="input-container">
+            <i class="fas fa-university"></i>
+            <input type="text" class="school" placeholder="...">
+          </div>
+          <label class="input-caption">Degree</label>
+          <div class="input-container">
+            <i class="fas fa-graduation-cap"></i>
+            <input type="text" class="degree" placeholder="...">
+          </div>
+          <label class="input-caption">University/School</label>
+          <div class="input-container">
+            <i class="fas fa-school"></i>
+            <input type="text" class="school" placeholder="...">
+          </div>
+        </div>
+        <div class="social">
+          <label class="input-caption">Date of join</label>
+          <div class="input-container">
+            <i class="fas fa-signature"></i>
+            <input type="date" class="date">
+          </div>
+          <label class="input-caption">Date of leave</label>
+          <div class="input-container">
+            <i class="fas fa-sign-out"></i>
+            <input type="date" class="date">
+          </div>
+          <label class="input-caption">Date of join</label>
+          <div class="input-container">
+            <i class="fas fa-signature"></i>
+            <input type="date" class="date">
+          </div>
+          <label class="input-caption">Date of leave</label>
+          <div class="input-container">
+            <i class="fas fa-sign-out"></i>
+            <input type="date" class="date">
+          </div>
+          <label class="input-caption">Date of join</label>
+          <div class="input-container">
+            <i class="fas fa-signature"></i>
+            <input type="date" class="date">
+          </div>
+          <label class="input-caption">Date of leave</label>
+          <div class="input-container">
+            <i class="fas fa-sign-out"></i>
+            <input type="date" class="date">
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+    <!-- Personal and academic projects -->
+  <div class="tab">
+    <h2 class="main-header">Show what you're capable of</h2>
+    Enter up to 5 projects
+    <div class="skills-container project-container">
+      <!-- part 1/3 -->
+      <div spellcheck="false">
+        <div class="skillset">
+          <input type="text" class="skill project">
+          <input type="text" class="skill project">
+          <input type="text" class="skill project">
+          <input type="text" class="skill project">
+          <input type="text" class="skill project">
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Hobbies -->
+    <div class="tab">
+    <h2 class="main-header">That's it! One more to go.
+      <br>
+      Do you have <span>Hobbies</span>?
+      <br>
+      If not, carry on!
+    </h2>
+    <div class="skills-container">
+      <!-- part 1/3 -->
+      <div spellcheck="false">
+        <div class="skillset">
+          <input type="text" class="hobby skill">
+          <input type="text" class="hobby skill">
+          <input type="text" class="hobby skill">
+          <input type="text" class="hobby skill">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end -->
+  <div class="tab">
+    <h2 class="main-header">There we go!</h2>
+    <i class="fas fa-thumbs-up"></i>
+    <p class="end">
+      <span>Take a preview! If it fits your needs,
+        click download.
+        <br>
+        If it doesn't, you can edit your copy!
+        <br>
+      </span>
+    </p>
+    <div class="action-buttons">
+      <button class="btn" id="convert">Preview</button>
+      <button class="btn" id="download">Dowload PDF</button>
+    </div>
+  </div>
+
+
+</form>
+<div class="state-buttons">
+  <button class="btn state-btn"  type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+  <button class="btn state-btn" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+</div>
+
+
+<div class="result">
+  <img src="" id="imgDisplayed">
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/form.js"></script>
+  <script src="./js/data-uris.js"></script>
+
+</body>
+</html>
