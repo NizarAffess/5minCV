@@ -8,8 +8,8 @@ Fill in the multi-step form with your informations until you reach the end by ta
 ## Future plans 
 The current version needs lot of improvements. The next features will be:
 * Responisve layout.
-* Better UI by adding a progress bar to highlight every step.
-* User friendly elements to simplify the process of filling the form by: 
+* Adding a progress bar to highlight every step of the form.
+* Better UI to simplify the process of filling the form by: 
   - Using a WYSIWYG Editor.
   - Adding Checkboxes and Radio buttons for some steps.
   - Possiblity to create lists. 
