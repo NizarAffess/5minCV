@@ -17,6 +17,9 @@ The current version needs lot of improvements. The next features will be:
   - DropDwon inputs for job title and companies.
 * Increase image size support up to 5MB.
 * Customizable input sections. 
+* Adding character counter for text fields.
+* Implement Real-Time preview instead of Pop-up window. 
+* Modularize the code.
 * Provide more templates to choose from.
 ## Contribution
 All of the features listed above cannot be done by one single guy. That's why we would like to hear from you.<br/>
