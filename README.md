@@ -22,9 +22,9 @@ The current version needs lot of improvements. The next features will be:
 * Modularize the code.
 * Provide more templates to choose from.
 ## Contribution
-All of the features listed above cannot be done by one single guy. That's why we would like to hear from you.<br/>
+All of the features listed above cannot be done by one single guy. That's why we rely on your contributions.<br/>
 We aim to keep everything rendered on the Front-end, but if you have some add-ons that requires some Back-end we may push your feedback as far as it proves its benefits. <br/> 
-We are happy to see you here and we will be grateful if you suggest any thing that could help improve this app. <br/>
+We are happy to see you here and we will be grateful if you suggest anything that could help improve this app. <br/>
 Thanks for your support!
 
   
