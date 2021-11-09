@@ -3,8 +3,8 @@
 ## [Live Demo](https://5mincv.netlify.app)<br/>
 
 Create your CV with ***5minCV*** in 5 minutes or even less. <br/>
-The whole app runs and render everything on the Front-end so you don't need to wait the server side rendering to get your copy. <br/> 
-Fill in the multi-step form with your informations until you reach the end by taking a preview, download your copy or edit it by refilling the form fields. <br/>
+The whole app runs and renders everything on the Front-end so you don't need to wait the server side rendering to get your copy. <br/> 
+Fill in the multi-step form with your informations until you reach the end by taking a preview, download your copy or edit it by updating the form fields. <br/>
 ## Future plans 
 The current version needs lot of improvements. The next features will be:
 * Responisve layout.
