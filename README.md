@@ -1,5 +1,5 @@
 # 5minCV
-***5minCV*** is a CV Builder Web App built with vanilla JS and jsPDF library. <br/>
+***5minCV*** is a CV Builder Web App built with JavaScript and jsPDF library. <br/>
 ## [Live Demo](https://5mincv.netlify.app)<br/>
 
 Create your CV with ***5minCV*** in 5 minutes or even less. <br/>
